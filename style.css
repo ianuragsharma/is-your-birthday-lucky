@@ -48,3 +48,11 @@ button {
   padding: 1rem;
   margin: 0.5rem;
 }
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  padding: 1.5rem;
+  background-color: black;
+  text-align: center;
+}
