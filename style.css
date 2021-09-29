@@ -14,7 +14,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 320px;
+  max-width: 340px;
   margin: auto;
   text-align: center;
   border-radius: 5px;
@@ -52,7 +52,7 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100vw;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: black;
   text-align: center;
 }
