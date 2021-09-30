@@ -19,7 +19,7 @@ function checkIfBirthdateIsLucky() {
     }
   } else {
     opMessage.innerText =
-      "Please fill both of the fields and lucky number should be greater than 1";
+      "Please fill both of the fields and lucky number should be greater than 0";
   }
 }
 
