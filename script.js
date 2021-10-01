@@ -7,11 +7,10 @@ checkButton.addEventListener("click", checkIfBirthdateIsLucky);
 
 function checkIfBirthdateIsLucky() {
   const bdate = DOB.value;
-  console.log(bdate);
   const luckyNo = Number(luckyNumber.value);
   const sum = checkSum(bdate);
 
-  if (sum && luckyNo) {
+  if (sum && luckyNo && luckyNo > 0) {
     if (sum % luckyNo === 0) {
       opMessage.innerText = "You have a lucky birthdate, congratsss 😊😊";
     } else {
